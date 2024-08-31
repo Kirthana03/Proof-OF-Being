@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(227, 230, 228);
+}
+
+#main {
+    margin-top: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+h1 {
+    font-family: "Crimson Text", serif;
+    font-size: 3vh;
+    font-weight: 450;
+    color: rgb(67, 81, 71);
+}
+
+#sub-main {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-right: 60vw;
+}
+
+i{
+    color: rgb(25, 101, 97);
+}
+
+h2 {
+    font-family: "Crimson Text", serif;
+    font-size: 2.4vh;
+    font-weight: 200;
+    color: rgb(130, 130, 130);
+    line-height: 150%;
+
+}
+
+#plants-intro {
+    display: flex;
+    flex-direction: row;
+    /* direction: column; */
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+
+}
+
+img {
+    height: 30vh;
+}
+
+#caption {
+    text-align: center;
+
+}
+
+#space {
+    margin-bottom: 300px;
+}
+
+#intro {
+    margin-left: 10vw;
+    margin-right: 20vw;
+    margin-top: 10vw;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #plants-intro {
+        display: flex;
+        flex-direction: column;
+        /* direction: column; */
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 10vh;
+        align-items: center;
+    
+    }
+
+    #intro {
+        padding: 6vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vw;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: bricolage grotesque;
+        font-size: 2vh;
+        font-weight: 200;
+        color: rgb(130, 130, 130);
+    
+    }
+
+    #main {
+        margin-top: 20vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        text-align: center;
+    }
+
+    #sub-main {
+        margin-left: 10vw;
+        margin-top: 10vh;
+        margin-right: 10vw;
+        text-align: center;
+    }
+}
