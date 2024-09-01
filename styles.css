@@ -48,6 +48,15 @@ img {
     height: 30vh;
 }
 
+img:hover {
+    border-radius: 2vh;
+    height: 32vh;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    transition-duration: 0.2s;
+}
+
+
+
 #caption {
     text-align: center;
 
