@@ -41,24 +41,67 @@ h2 {
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 10vh;
+    gap: 1vw
 
 }
 
 img {
     height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 5px;
+    border-radius: 2vh;
 }
 
 img:hover {
     border-radius: 2vh;
-    height: 32vh;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
-    transition-duration: 0.2s;
+    height: 29.5vh;
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 3px 5px;
+    transition-duration: 0.4s;
 }
 
+li {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: "Crimson Text", serif;
+    font-size: 2.4vh;
+    font-weight: 200;
+    color: rgb(130, 130, 130);
+    line-height: 150%;
 
+}
+
+#smol-nav {
+    margin-top: 5vh;
+    display: flex;
+    margin-left: 10vw;
+    justify-content: space-between;
+    margin-right: 10vw;
+
+
+}
+
+#page-back {
+    padding: 0.5vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px;
+    height: 2vh;
+    border-radius: 1.1vh;
+}
+#page-back:hover{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 4px;
+    height:1.5vh;
+}
+#nav {
+    margin: 0%;
+    padding: 0%;
+    line-height: 100%;
+
+}
 
 #caption {
     text-align: center;
+    
 
 }
 
